@@ -22,6 +22,7 @@ function Login({ loginHandler }) {
   const validatePassword = (password) => {
     return password.trim().length >= 4;
   };
+  
 
 
   const validateForm = () => {
